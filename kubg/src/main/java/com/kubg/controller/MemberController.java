@@ -38,6 +38,7 @@ public class MemberController {
 	 logger.info("get signup");
 	}
 
+	
 	// 회원 가입 post
 	@RequestMapping(value = "/signup", method = RequestMethod.POST)
 	public String postSignup(MemberVO vo) throws Exception {

@@ -16,8 +16,8 @@ public class MemberDAOImpl implements MemberDAO {
 	// 회원가입
 	@Override
 	public void signup(MemberVO vo) throws Exception {
-		System.out.println("  [  1. DAO. register. 회원가입. 접속. ] ");
-		sql.insert("memberMapper.register", vo);
-		System.out.println("  [  2. DAO. register. 회원가입. vo. = ] " + vo);
+		System.out.println("  [  1. DAO. signup. 회원가입. 접속. ] ");
+		sql.insert("memberMapper.signup", vo);
+		System.out.println("  [  2. DAO. signup. 회원가입. vo. = ] " + vo);
 	}
 }
